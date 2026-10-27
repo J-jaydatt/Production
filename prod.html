@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Production Application</title>
+  <meta name="description" content="A secure, high-performance production application template.">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Production Application">
+  <meta property="og:description" content="A secure, high-performance production application template.">
+  <meta property="og:image" content="https://example.com">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Production Application">
+  <meta property="twitter:description" content="A secure, high-performance production application template.">
+  
+  <!-- Favicons & Manifest -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  
+  <!-- Performance Optimization (Preloading critical assets) -->
+  <link rel="preload" href="/assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.min.css">
+  
+  <!-- Content Security Policy (CSP) - Adjust to match your APIs -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+</head>
+<body>
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Application Header -->
+  <header role="banner" class="app-header">
+    <div class="container">
+      <div class="logo">
+        <a href="/" aria-label="Home">AppLogo</a>
+      </div>
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="/dashboard">Dashboard</a></li>
+          <li><a href="/settings">Settings</a></li>
+          <li><a href="/profile">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content" role="main" class="app-main">
+    <div class="container">
+      <header class="page-header">
+        <h1>Welcome to Your Dashboard</h1>
+        <p class="subtitle">Manage your metrics, performance, and configurations.</p>
+      </header>
+
+      <section class="card-grid" aria-labelledby="section-title">
+        <h2 id="section-title" class="visually-hidden">Application Overview</h2>
+        
+        <div class="card">
+          <h3>Overview</h3>
+          <p>Production applications require clean semantic structure for scaling.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Application Footer -->
+  <footer role="contentinfo" class="app-footer">
+    <div class="container">
+      <p>&copy; 2026 Production App. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript (Deferred for performance) -->
+  <script defer src="/assets/js/app.min.js"></script>
+</body>
+</html>
+
